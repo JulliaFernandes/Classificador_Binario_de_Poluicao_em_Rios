@@ -39,19 +39,20 @@ streamlit run app.py
 
 ## 📂 Dataset
 
-As imagens utilizadas no treinamento do modelo foram obtidas a partir de imagens públicas com creative commons e dos dataset [** debris Dataset **](https://universe.roboflow.com/debris-qtddn/debris-ikfey) e [** marine debris Dataset **](https://universe.roboflow.com/marine-debris/marine-debris-i2ge3)
+As imagens utilizadas no treinamento do modelo foram obtidas a partir de imagens públicas com creative commons e dos dataset [debris Dataset](https://universe.roboflow.com/debris-qtddn/debris-ikfey) e [marine debris Dataset](https://universe.roboflow.com/marine-debris/marine-debris-i2ge3).
 Essas imagens foram utilizadas apenas para **fins educacionais e de pesquisa**, respeitando os direitos dos autores originais.
 
-
----  
+---
 
 ## 🧪 Tecnologias utilizadas
+
 - Python
 - TensorFlow / Keras
 - Streamlit
 - NumPy / PIL
 
 ## 👩‍💻 Autoria
+
 Desenvolvido por Jullia Fernandes
 
 CEFET-MG – Campus Divinópolis
