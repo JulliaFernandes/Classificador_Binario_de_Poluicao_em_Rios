@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ========== CARREGAMENTO DO MODELO ==========
-model = tf.keras.models.load_model("melhor_modelo2.h5")
+model = tf.keras.models.load_model("melhor_modelo2.h5", compile=False)
 
 # ========== TÍTULO E DESCRIÇÃO ==========
 st.markdown("# 🌍 Classificação Binário de Rios por Imagem")
