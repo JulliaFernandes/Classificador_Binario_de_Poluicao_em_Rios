@@ -1,6 +1,7 @@
+tensorflow==2.12.0
 keras==2.12.0
-scikit-learn==1.6.1
 streamlit==1.46.0
 Pillow
-matplotlib
 numpy
+matplotlib
+scikit-learn==1.6.1
