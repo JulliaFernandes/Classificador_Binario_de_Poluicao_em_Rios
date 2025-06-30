@@ -1,7 +1,7 @@
 import streamlit as st
-import tensorflow as tf
 from PIL import Image
 import numpy as np
+from keras.models import load_model
 
 # ========== ESTILO CSS ==========
 st.markdown("""
@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ========== CARREGAMENTO DO MODELO ==========
-model = tf.keras.models.load_model("melhor_modelo2.h5", compile=False)
+model = load_model("melhor_modelo2.h5", compile=False)
 
 # ========== TÍTULO E DESCRIÇÃO ==========
 st.markdown("# 🌍 Classificação Binário de Rios por Imagem")
