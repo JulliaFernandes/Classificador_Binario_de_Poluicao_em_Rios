@@ -1,5 +1,7 @@
 streamlit
-tensorflow==2.10.0
-keras
+joblib
 numpy
-pillow
+pandas
+scikit-learn
+opencv-python-headless
+tensorflow>=2.13.0
